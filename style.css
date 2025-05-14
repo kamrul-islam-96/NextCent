@@ -1,0 +1,58 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap'); 
+
+:root {
+    --primary-color: #4CAF4F;
+    --gray-color: #4D4D4D;
+    --black: #18191F;
+    --silver: #F5F7FA;
+    --pera-color: #717171;
+    --fotter-color: #263238;
+}
+
+body {
+    font-family: "Inter", serif;
+}
+
+.nav-item a {
+    padding: 30px 0;
+}
+
+.btn {
+    padding: 10px 20px;
+}
+
+.log-in {
+    border: 1px solid black;
+}
+
+.btn-extra {
+    background-color: var(--primary-color);
+}
+
+.hero-section {
+    background-color: var(--silver);
+}
+
+.hero-btn {
+    padding: 14px 32px;
+    background-color: var(--primary-color);
+    border: none;
+    border-radius: 4px;
+    color: #ffffff;
+}
+
+.hero-section .container h1 {
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 76px;
+}
+
+.hero-section .container h1 span {
+    color: var(--primary-color);
+}
