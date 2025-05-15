@@ -19,6 +19,12 @@ body {
     font-family: "Inter", serif;
 }
 
+.navbar {
+    width: 1440px;
+    margin: 0 auto;
+    background-color: var(--silver);
+}
+
 .nav-item a {
     padding: 30px 0;
 }
@@ -55,4 +61,29 @@ body {
 
 .hero-section .container h1 span {
     color: var(--primary-color);
+}
+
+.hero-section {
+    width: 1440px;
+    height: 599px;
+    margin: 0 auto;
+    gap: 104px;
+}
+
+
+.left-side h1 {
+    font-size: 64px;
+}
+
+.left-side span {
+    color: var(--primary-color);
+}
+
+.reg-btn {
+    width: 128px;
+    height: 52px;
+    border: none;
+    border-radius: 4px;
+    background-color: var(--primary-color);
+    color: white;
 }
