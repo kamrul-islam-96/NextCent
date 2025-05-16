@@ -87,3 +87,18 @@ body {
     background-color: var(--primary-color);
     color: white;
 }
+
+.clients {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.clients h2 {
+    font-size: 36px;
+}
+
+.clients-logos {
+    width: 1152px;
+    height: 98px;
+    margin: 0 auto;
+}
