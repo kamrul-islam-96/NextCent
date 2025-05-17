@@ -102,3 +102,23 @@ body {
     height: 98px;
     margin: 0 auto;
 }
+
+.Community {
+    width: 1440px;
+    height: 416px;
+    margin: 40px auto 0;
+}
+
+.org-assoc {
+    width: 299px;
+    height: 260px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 24px 16px;
+}
+
+.org-assoc h3 {
+    margin: 16px 0 8px;
+}
