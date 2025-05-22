@@ -139,3 +139,40 @@ body {
     width: 601px;
     padding: 16px 0 32px;
 }
+
+.Achievements {
+    width: 1440px;
+    height: 288px;
+    margin: 0 auto;
+    padding: 144px 0;
+    gap: 72px;
+}
+
+.section-heading {
+    width: 540px;
+    height: 120px;
+}
+
+.section-heading h2 {
+    font-size: 36px;
+}
+
+.section-heading span {
+    font-size: 36px;
+    color: var(--primary-color);
+}
+
+.counts {
+    width: 540px;
+    height: 160px;
+}
+
+.box {
+    width: 255px;
+    height: 60px;
+    gap: 16px;
+}
+
+.bottom {
+    margin-top: 40px;
+}
