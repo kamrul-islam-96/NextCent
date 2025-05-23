@@ -146,6 +146,7 @@ body {
     margin: 0 auto;
     padding: 144px 0;
     gap: 72px;
+    background-color: var(--silver);
 }
 
 .section-heading {
@@ -175,4 +176,27 @@ body {
 
 .bottom {
     margin-top: 40px;
+}
+
+.Calender {
+    width: 1440px;
+    height: 433px;
+    margin: 48px auto;
+    gap: 50px;
+}
+
+.mobile-login {
+    margin-left: 144px;
+}
+
+.frame-8 {
+    width: 661px;
+    height: 308px;
+    margin-right: 144px;
+    margin-top: 63px;
+    padding-right: 60px;
+}
+
+.frame-8 h2 {
+    font-size: 36px;
 }
