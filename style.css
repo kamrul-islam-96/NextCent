@@ -256,3 +256,28 @@ body {
     place-items: center;
     padding-top: 24px;
 }
+
+.Frame-16 {
+    width: 1440px;
+    height: 300px;
+    background-color: var(--silver);
+    margin: 0 auto;
+    padding: 32px 276px;
+}
+
+.Frame-16 h1 {
+    font-size: 64px;
+}
+
+.Frame-16 button {
+    display: block;
+    margin: 32px auto 0;
+    padding: 14px 32px;
+    background-color: var(--primary-color);
+    border: none;
+}
+
+.Frame-16 button a {
+    text-decoration: none;
+    color: white;
+}
