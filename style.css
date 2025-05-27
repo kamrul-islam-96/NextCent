@@ -281,3 +281,10 @@ body {
     text-decoration: none;
     color: white;
 }
+
+footer {
+    width: 1440px;
+    height: 328px;
+    margin: 0 auto;
+    background-color: var(--fotter-color);
+}
