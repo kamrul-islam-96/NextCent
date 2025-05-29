@@ -219,6 +219,26 @@ body {
     color: var(--primary-color);
 }
 
+@keyframes slideRightToLeft {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.frame-10 {
+  overflow: hidden;
+  position: relative;
+}
+
+.frame-10 .slider {
+  display: flex;
+  animation: slideRightToLeft 20s linear infinite;
+  gap: 20px; 
+}
+
 .Comunity-updates {
     width: 1440px;
     height: 506px;
